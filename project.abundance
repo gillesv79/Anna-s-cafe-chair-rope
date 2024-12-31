@@ -21,11 +21,11 @@
             "atomType": "Import",
             "name": "Import",
             "x": 0.39217877094972065,
-            "y": 0.5212121212121212,
-            "uniqueID": 1735670981574,
+            "y": 0.5272727272727272,
+            "uniqueID": 1735672487994,
             "ioValues": [],
             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
-            "fileName": "Climbing Rope Chair_noframe.svg",
+            "fileName": "chair-side.svg",
             "type": "SVG",
             "SVGwidth": 10
         }
