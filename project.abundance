@@ -20,14 +20,40 @@
         {
             "atomType": "Import",
             "name": "Import",
-            "x": 0.26033519553072626,
-            "y": 0.3787878787878788,
+            "x": 0.2558659217877095,
+            "y": 0.3545454545454545,
             "uniqueID": 1735674161153,
             "ioValues": [],
             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
             "fileName": "chair-side-converted.svg",
             "type": "SVG",
             "SVGwidth": 10
+        },
+        {
+            "atomType": "Rotate",
+            "name": "Rotate",
+            "x": 0.43910614525139663,
+            "y": 0.5272727272727272,
+            "uniqueID": 1735674502020,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
+                {
+                    "name": "x-axis degrees",
+                    "ioValue": 0
+                },
+                {
+                    "name": "y-axis degrees",
+                    "ioValue": 0
+                },
+                {
+                    "name": "z-axis degrees",
+                    "ioValue": 0
+                }
+            ],
+            "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
         }
     ],
     "allConnectors": [],
