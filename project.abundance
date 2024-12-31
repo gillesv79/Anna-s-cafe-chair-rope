@@ -20,25 +20,25 @@
         {
             "atomType": "Import",
             "name": "Import",
-            "x": 0.30987821380243574,
-            "y": 0.5363636363636364,
-            "uniqueID": 1735670138697,
-            "ioValues": [],
-            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
-            "fileName": "Climbing Rope Chair V2.svg",
-            "type": "SVG",
-            "SVGwidth": 10
-        },
-        {
-            "atomType": "Import",
-            "name": "Import",
-            "x": 0.4419889502762431,
-            "y": 0.4696969696969697,
+            "x": 0.4438305709023941,
+            "y": 0.47575757575757577,
             "uniqueID": 1735670252374,
             "ioValues": [],
             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
             "fileName": "frieze_1 v2.stl",
             "type": "STL",
+            "SVGwidth": 10
+        },
+        {
+            "atomType": "Import",
+            "name": "Import",
+            "x": 0.2558659217877095,
+            "y": 0.5424242424242425,
+            "uniqueID": 1735670380335,
+            "ioValues": [],
+            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
+            "fileName": "Climbing Rope Chair V2.svg",
+            "type": "SVG",
             "SVGwidth": 10
         }
     ],
