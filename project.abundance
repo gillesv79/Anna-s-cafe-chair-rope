@@ -20,12 +20,24 @@
         {
             "atomType": "Import",
             "name": "Import",
-            "x": 0.36983240223463687,
-            "y": 0.5757575757575757,
+            "x": 0.29273743016759773,
+            "y": 0.49090909090909085,
             "uniqueID": 1735672547553,
             "ioValues": [],
             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
             "fileName": "chair-side-converted.svg",
+            "type": "SVG",
+            "SVGwidth": 48
+        },
+        {
+            "atomType": "Import",
+            "name": "Import",
+            "x": 0.5508379888268157,
+            "y": 0.48787878787878786,
+            "uniqueID": 1735673120965,
+            "ioValues": [],
+            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
+            "fileName": "chair-side.svg",
             "type": "SVG",
             "SVGwidth": 10
         }
