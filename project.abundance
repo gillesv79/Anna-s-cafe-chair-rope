@@ -20,12 +20,12 @@
         {
             "atomType": "Import",
             "name": "Import",
-            "x": 0.40111731843575416,
-            "y": 0.6333333333333333,
-            "uniqueID": 1735670760051,
+            "x": 0.45363128491620114,
+            "y": 0.5848484848484848,
+            "uniqueID": 1735670895501,
             "ioValues": [],
             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
-            "fileName": "sign test.svg",
+            "fileName": "Climbing Rope Chair_noframe.svg",
             "type": "SVG",
             "SVGwidth": 10
         }
