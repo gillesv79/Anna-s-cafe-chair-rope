@@ -20,8 +20,8 @@
         {
             "atomType": "Import",
             "name": "Import",
-            "x": 0.4438305709023941,
-            "y": 0.47575757575757577,
+            "x": 0.429050279329609,
+            "y": 0.33636363636363636,
             "uniqueID": 1735670252374,
             "ioValues": [],
             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
@@ -32,9 +32,9 @@
         {
             "atomType": "Import",
             "name": "Import",
-            "x": 0.2558659217877095,
-            "y": 0.5424242424242425,
-            "uniqueID": 1735670380335,
+            "x": 0.3016759776536313,
+            "y": 0.5909090909090909,
+            "uniqueID": 1735670526240,
             "ioValues": [],
             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
             "fileName": "Climbing Rope Chair V2.svg",
@@ -45,6 +45,6 @@
     "allConnectors": [],
     "unitsKey": "Inches",
     "fileTypeVersion": 1,
-    "compiledBom": {},
+    "compiledBom": [],
     "filetypeVersion": 1
 }
