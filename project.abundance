@@ -1,13 +1,35 @@
 {
     "atomType": "Molecule",
-    "name": "Anna's-cafe-chair-rope",
+    "name": "Anna-s-cafe-chair-rope",
     "x": 0,
     "y": 0,
     "uniqueID": 1735670125366,
     "ioValues": [],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
     "topLevel": true,
-    "allAtoms": [],
+    "allAtoms": [
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": 1735670134573,
+            "ioValues": [],
+            "description": "Connect geometry here to make it available in the next level up. "
+        },
+        {
+            "atomType": "Import",
+            "name": "Import",
+            "x": 0.30987821380243574,
+            "y": 0.5363636363636364,
+            "uniqueID": 1735670138697,
+            "ioValues": [],
+            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
+            "fileName": "Climbing Rope Chair V2.svg",
+            "type": "SVG",
+            "SVGwidth": 10
+        }
+    ],
     "allConnectors": [],
     "unitsKey": "Inches",
     "fileTypeVersion": 1,
