@@ -20,24 +20,12 @@
         {
             "atomType": "Import",
             "name": "Import",
-            "x": 0.30726256983240224,
-            "y": 0.5242424242424242,
-            "uniqueID": 1735670697510,
+            "x": 0.40111731843575416,
+            "y": 0.6333333333333333,
+            "uniqueID": 1735670760051,
             "ioValues": [],
             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
-            "fileName": "Climbing Rope Chair V2.svg",
-            "type": "SVG",
-            "SVGwidth": 10
-        },
-        {
-            "atomType": "Import",
-            "name": "Import",
-            "x": 0.4905027932960894,
-            "y": 0.5303030303030303,
-            "uniqueID": 1735670726817,
-            "ioValues": [],
-            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
-            "fileName": "Gas Fire Pit.svg",
+            "fileName": "sign test.svg",
             "type": "SVG",
             "SVGwidth": 10
         }
