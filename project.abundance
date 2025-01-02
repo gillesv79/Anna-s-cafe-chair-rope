@@ -66,13 +66,13 @@
                     "description": "Import Atom, let's you choose a type of file to import and use in your design.",
                     "fileName": "chair-side-converted.svg",
                     "type": "SVG",
-                    "SVGwidth": 10
+                    "SVGwidth": 30
                 },
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Linear-Pattern",
-                    "x": 0.30442804428044284,
-                    "y": 0.3090909090909091,
+                    "x": 0.29797047970479706,
+                    "y": 0.3666666666666667,
                     "uniqueID": 1735859783063,
                     "ioValues": [
                         {
@@ -81,7 +81,7 @@
                         },
                         {
                             "name": "number of repeats",
-                            "ioValue": 6
+                            "ioValue": 15
                         },
                         {
                             "name": "yOffset",
@@ -152,7 +152,7 @@
                                 },
                                 {
                                     "name": "times",
-                                    "ioValue": 10
+                                    "ioValue": 15
                                 },
                                 {
                                     "name": "xOffset",
@@ -286,8 +286,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.17988929889298894,
-                    "y": 0.3757575757575758,
+                    "x": 0.16974169741697417,
+                    "y": 0.3545454545454545,
                     "uniqueID": 1735859798516,
                     "ioValues": [
                         {
@@ -300,13 +300,13 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.6632841328413284,
-                    "y": 0.4575757575757576,
+                    "x": 0.665129151291513,
+                    "y": 0.4454545454545455,
                     "uniqueID": 1735859855046,
                     "ioValues": [
                         {
                             "name": "geometry2",
-                            "ioValue": 1735859902478
+                            "ioValue": 1735859967998
                         },
                         {
                             "name": "geometry1",
@@ -318,8 +318,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.5018450184501845,
-                    "y": 0.7030303030303031,
+                    "x": 0.49815498154981547,
+                    "y": 0.696969696969697,
                     "uniqueID": 1735859897520,
                     "ioValues": [
                         {
@@ -336,8 +336,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.3929889298892989,
-                    "y": 0.26666666666666666,
+                    "x": 0.3948339483394834,
+                    "y": 0.29393939393939394,
                     "uniqueID": 1735859902478,
                     "ioValues": [
                         {
@@ -354,21 +354,21 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.5083025830258302,
-                    "y": 0.4575757575757576,
+                    "x": 0.5940959409594097,
+                    "y": 0.2909090909090909,
                     "uniqueID": 1735859967998,
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": ""
+                            "ioValue": 1735859974459
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 6.5
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": -3
                         },
                         {
                             "name": "zDist",
@@ -380,8 +380,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.4354243542435424,
-                    "y": 0.48787878787878786,
+                    "x": 0.4843173431734317,
+                    "y": 0.26666666666666666,
                     "uniqueID": 1735859974459,
                     "ioValues": [
                         {
@@ -398,7 +398,7 @@
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": 70
+                            "ioValue": 61
                         }
                     ],
                     "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
@@ -442,17 +442,24 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1735859902478,
+                    "ap2ID": 1735859974459
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "geometry2",
                     "ap2Primary": false,
-                    "ap1ID": 1735859902478,
+                    "ap1ID": 1735859967998,
                     "ap2ID": 1735859855046
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
-                    "ap1ID": 1735859902478,
-                    "ap2ID": 1735859974459
+                    "ap1ID": 1735859974459,
+                    "ap2ID": 1735859967998
                 }
             ],
             "fileTypeVersion": 1,
