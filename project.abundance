@@ -59,8 +59,8 @@
                 {
                     "atomType": "Import",
                     "name": "Import",
-                    "x": 0.25276752767527677,
-                    "y": 0.7212121212121212,
+                    "x": 0.2333948339483395,
+                    "y": 0.5545454545454546,
                     "uniqueID": 1735859755158,
                     "ioValues": [],
                     "description": "Import Atom, let's you choose a type of file to import and use in your design.",
@@ -81,7 +81,7 @@
                         },
                         {
                             "name": "number of repeats",
-                            "ioValue": 15
+                            "ioValue": 13
                         },
                         {
                             "name": "yOffset",
@@ -152,7 +152,7 @@
                                 },
                                 {
                                     "name": "times",
-                                    "ioValue": 15
+                                    "ioValue": 13
                                 },
                                 {
                                     "name": "xOffset",
@@ -318,8 +318,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.49815498154981547,
-                    "y": 0.696969696969697,
+                    "x": 0.49169741697416974,
+                    "y": 0.5424242424242425,
                     "uniqueID": 1735859897520,
                     "ioValues": [
                         {
@@ -354,8 +354,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.5940959409594097,
-                    "y": 0.2909090909090909,
+                    "x": 0.5922509225092251,
+                    "y": 0.27272727272727276,
                     "uniqueID": 1735859967998,
                     "ioValues": [
                         {
@@ -364,11 +364,11 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 6.5
+                            "ioValue": 7.5
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -3
+                            "ioValue": -1
                         },
                         {
                             "name": "zDist",
@@ -380,7 +380,7 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.4843173431734317,
+                    "x": 0.4833948339483395,
                     "y": 0.26666666666666666,
                     "uniqueID": 1735859974459,
                     "ioValues": [
