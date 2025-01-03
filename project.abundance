@@ -25,8 +25,8 @@
         {
             "atomType": "Molecule",
             "name": "Chair sides",
-            "x": 0.2121771217712177,
-            "y": 0.4181818181818182,
+            "x": 0.19833948339483393,
+            "y": 0.393939393939394,
             "uniqueID": 1735859737317,
             "ioValues": [
                 {
@@ -305,8 +305,8 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.7075645756457565,
-                    "y": 0.403030303030303,
+                    "x": 0.7057195571955719,
+                    "y": 0.27575757575757576,
                     "uniqueID": 1735859855046,
                     "ioValues": [
                         {
@@ -483,8 +483,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.7324723247232472,
-                    "y": 0.7,
+                    "x": 0.7472324723247232,
+                    "y": 0.5484848484848485,
                     "uniqueID": 1735932470502,
                     "ioValues": [
                         {
@@ -523,7 +523,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": 0.375
                         },
                         {
                             "name": "zDist",
@@ -531,6 +531,21 @@
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "t/2",
+                    "x": 0.6642066420664207,
+                    "y": 0.806060606060606,
+                    "uniqueID": 1735932715786,
+                    "ioValues": [
+                        {
+                            "name": "t",
+                            "ioValue": 0.75
+                        }
+                    ],
+                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                    "currentEquation": "t/2"
                 }
             ],
             "allConnectors": [
@@ -540,6 +555,13 @@
                     "ap2Primary": false,
                     "ap1ID": 1735859749213,
                     "ap2ID": 1735859897520
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "t",
+                    "ap2Primary": false,
+                    "ap1ID": 1735859749213,
+                    "ap2ID": 1735932715786
                 },
                 {
                     "ap1Name": "geometry",
@@ -638,6 +660,13 @@
                     "ap2Primary": false,
                     "ap1ID": 1735932509962,
                     "ap2ID": 1735859737740
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "yDist",
+                    "ap2Primary": false,
+                    "ap1ID": 1735932715786,
+                    "ap2ID": 1735932509962
                 }
             ],
             "fileTypeVersion": 1,
@@ -652,6 +681,32 @@
             "ioValues": [],
             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
             "type": "number"
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.2924354243542435,
+            "y": 0.4212121212121212,
+            "uniqueID": 1735932758240,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
         }
     ],
     "allConnectors": [
