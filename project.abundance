@@ -759,18 +759,22 @@
         },
         {
             "atomType": "Equation",
-            "name": "-w/2",
-            "x": 0.18357933579335795,
-            "y": 0.4696969696969697,
+            "name": "-w/2 - y",
+            "x": 0.2260147601476015,
+            "y": 0.4636363636363637,
             "uniqueID": 1735932909576,
             "ioValues": [
                 {
                     "name": "w",
                     "ioValue": 20
+                },
+                {
+                    "name": "y",
+                    "ioValue": 0.75
                 }
             ],
             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
-            "currentEquation": "-w/2"
+            "currentEquation": "-w/2 - y"
         },
         {
             "atomType": "Move",
@@ -815,7 +819,7 @@
                 },
                 {
                     "name": "yDist",
-                    "ioValue": -10
+                    "ioValue": -10.75
                 },
                 {
                     "name": "zDist",
@@ -935,8 +939,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 0.2859778597785978,
-                    "y": 0.35757575757575755,
+                    "x": 0.2878228782287823,
+                    "y": 0.3242424242424242,
                     "uniqueID": 1735933891571,
                     "ioValues": [
                         {
@@ -1556,7 +1560,7 @@
             "atomType": "Join",
             "name": "Assembly",
             "x": 0.7038745387453874,
-            "y": 0.48787878787878786,
+            "y": 0.5181818181818182,
             "uniqueID": 1735941590285,
             "ioValues": [
                 {
@@ -1564,8 +1568,8 @@
                     "ioValue": 1735932964265
                 },
                 {
-                    "name": "Shape 3",
-                    "ioValue": 1735941623863
+                    "name": "Shape 4",
+                    "ioValue": 1735941600350
                 }
             ],
             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
@@ -1575,17 +1579,17 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.44003690036900367,
-            "y": 0.6212121212121212,
+            "x": 0.5535055350553506,
+            "y": 0.5909090909090909,
             "uniqueID": 1735941600350,
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": 1735933562785
+                    "ioValue": 1735941623863
                 },
                 {
                     "name": "xDist",
-                    "ioValue": 0
+                    "ioValue": -14
                 },
                 {
                     "name": "yDist",
@@ -1593,7 +1597,7 @@
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 10
+                    "ioValue": 10.25
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
@@ -1601,21 +1605,21 @@
         {
             "atomType": "Rotate",
             "name": "Rotate",
-            "x": 0.5747232472324724,
-            "y": 0.5060606060606061,
+            "x": 0.42712177121771217,
+            "y": 0.6757575757575758,
             "uniqueID": 1735941623863,
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": 1735941600350
+                    "ioValue": 1735933562785
                 },
                 {
                     "name": "x-axis degrees",
-                    "ioValue": 30
+                    "ioValue": 0
                 },
                 {
                     "name": "y-axis degrees",
-                    "ioValue": 0
+                    "ioValue": 15
                 },
                 {
                     "name": "z-axis degrees",
@@ -1660,6 +1664,13 @@
             "ap2Primary": false,
             "ap1ID": 1735932168295,
             "ap2ID": 1735933562785
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "y",
+            "ap2Primary": false,
+            "ap1ID": 1735932168295,
+            "ap2ID": 1735932909576
         },
         {
             "ap1Name": "geometry",
@@ -1743,21 +1754,21 @@
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": 1735933562785,
-            "ap2ID": 1735941600350
+            "ap2ID": 1735941623863
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape 4",
+            "ap2Primary": false,
+            "ap1ID": 1735941600350,
+            "ap2ID": 1735941590285
         },
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
-            "ap1ID": 1735941600350,
-            "ap2ID": 1735941623863
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "Shape 3",
-            "ap2Primary": false,
             "ap1ID": 1735941623863,
-            "ap2ID": 1735941590285
+            "ap2ID": 1735941600350
         }
     ],
     "unitsKey": "Inches",
