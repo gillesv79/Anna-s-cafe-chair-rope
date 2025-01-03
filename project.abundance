@@ -12,6 +12,10 @@
         {
             "name": "ch width",
             "ioValue": 20
+        },
+        {
+            "name": "rope size",
+            "ioValue": 0.45
         }
     ],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -41,6 +45,10 @@
                 {
                     "name": "ply thickness",
                     "ioValue": 0.75
+                },
+                {
+                    "name": "hole size",
+                    "ioValue": 0.495
                 }
             ],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -300,13 +308,13 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.16974169741697417,
-                    "y": 0.3545454545454545,
+                    "x": 0.16051660516605165,
+                    "y": 0.396969696969697,
                     "uniqueID": 1735859798516,
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 0.5
+                            "ioValue": 0.495
                         }
                     ],
                     "description": "Creates a new circle."
@@ -555,6 +563,16 @@
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "t/2"
+                },
+                {
+                    "atomType": "Input",
+                    "name": "hole size",
+                    "x": 0.04,
+                    "y": 0.7212121212121212,
+                    "uniqueID": 1735944218311,
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                    "type": "number"
                 }
             ],
             "allConnectors": [
@@ -676,6 +694,13 @@
                     "ap2Primary": false,
                     "ap1ID": 1735932715786,
                     "ap2ID": 1735932509962
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "diameter",
+                    "ap2Primary": false,
+                    "ap1ID": 1735944218311,
+                    "ap2ID": 1735859798516
                 }
             ],
             "fileTypeVersion": 1,
@@ -867,6 +892,10 @@
                 {
                     "name": "ch width",
                     "ioValue": 20
+                },
+                {
+                    "name": "hole size",
+                    "ioValue": 0.495
                 }
             ],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -899,7 +928,7 @@
                     "atomType": "Input",
                     "name": "ch width",
                     "x": 0.04,
-                    "y": 0.7696969696969698,
+                    "y": 0.8757575757575758,
                     "uniqueID": 1735933563213,
                     "ioValues": [],
                     "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
@@ -1086,13 +1115,13 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.22140221402214022,
-                    "y": 0.8,
+                    "x": 0.22232472324723246,
+                    "y": 0.8121212121212122,
                     "uniqueID": 1735934028379,
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 0.5
+                            "ioValue": 0.495
                         }
                     ],
                     "description": "Creates a new circle."
@@ -1100,13 +1129,13 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Linear-Pattern",
-                    "x": 0.5396678966789668,
-                    "y": 0.5848484848484848,
+                    "x": 0.5138376383763837,
+                    "y": 0.7181818181818181,
                     "uniqueID": 1735934045532,
                     "ioValues": [
                         {
                             "name": "shape",
-                            "ioValue": 1735934177780
+                            "ioValue": 10
                         },
                         {
                             "name": "number of repeats",
@@ -1177,7 +1206,7 @@
                             "ioValues": [
                                 {
                                     "name": "shape",
-                                    "ioValue": 1735934177780
+                                    "ioValue": 10
                                 },
                                 {
                                     "name": "times",
@@ -1316,7 +1345,7 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.3127306273062731,
+                    "x": 0.3579335793357934,
                     "y": 0.7666666666666666,
                     "uniqueID": 1735934177780,
                     "ioValues": [
@@ -1400,6 +1429,16 @@
                         }
                     ],
                     "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+                },
+                {
+                    "atomType": "Input",
+                    "name": "hole size",
+                    "x": 0.04,
+                    "y": 0.6,
+                    "uniqueID": 1735944184943,
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                    "type": "number"
                 }
             ],
             "allConnectors": [
@@ -1529,13 +1568,7 @@
                     "ap1ID": 1735934045532,
                     "ap2ID": 1735941417070
                 },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "shape",
-                    "ap2Primary": false,
-                    "ap1ID": 1735934177780,
-                    "ap2ID": 1735934045532
-                },
+                null,
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry1",
@@ -1556,6 +1589,13 @@
                     "ap2Primary": false,
                     "ap1ID": 1735941545704,
                     "ap2ID": 1735933562622
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "diameter",
+                    "ap2Primary": false,
+                    "ap1ID": 1735944184943,
+                    "ap2ID": 1735934028379
                 }
             ],
             "fileTypeVersion": 1,
@@ -1564,8 +1604,8 @@
         {
             "atomType": "Join",
             "name": "Assembly",
-            "x": 0.8182656826568265,
-            "y": 0.36363636363636365,
+            "x": 0.8210332103321033,
+            "y": 0.3757575757575758,
             "uniqueID": 1735941590285,
             "ioValues": [
                 {
@@ -1648,8 +1688,8 @@
         {
             "atomType": "Rotate",
             "name": "Rotate",
-            "x": 0.496309963099631,
-            "y": 0.5272727272727272,
+            "x": 0.4511070110701107,
+            "y": 0.5393939393939393,
             "uniqueID": 1735943030683,
             "ioValues": [
                 {
@@ -2199,6 +2239,31 @@
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
+            "atomType": "Input",
+            "name": "rope size",
+            "x": 0.04,
+            "y": 0.8878787878787878,
+            "uniqueID": 1735944140620,
+            "ioValues": [],
+            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+            "type": "number"
+        },
+        {
+            "atomType": "Equation",
+            "name": "x + (x*0.1)",
+            "x": 0.16236162361623616,
+            "y": 0.9060606060606061,
+            "uniqueID": 1735944148777,
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 0.45
+                }
+            ],
+            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+            "currentEquation": "x + (x*0.1)"
         }
     ],
     "allConnectors": [
@@ -2425,6 +2490,27 @@
             "ap2Primary": false,
             "ap1ID": 1735944010790,
             "ap2ID": 1735941590285
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "x",
+            "ap2Primary": false,
+            "ap1ID": 1735944140620,
+            "ap2ID": 1735944148777
+        },
+        {
+            "ap1Name": "result",
+            "ap2Name": "hole size",
+            "ap2Primary": false,
+            "ap1ID": 1735944148777,
+            "ap2ID": 1735933562785
+        },
+        {
+            "ap1Name": "result",
+            "ap2Name": "hole size",
+            "ap2Primary": false,
+            "ap1ID": 1735944148777,
+            "ap2ID": 1735859737317
         }
     ],
     "unitsKey": "Inches",
