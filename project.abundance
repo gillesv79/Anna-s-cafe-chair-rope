@@ -1096,7 +1096,7 @@
                         },
                         {
                             "name": "number of repeats",
-                            "ioValue": 10
+                            "ioValue": 11
                         },
                         {
                             "name": "yOffset",
@@ -1167,7 +1167,7 @@
                                 },
                                 {
                                     "name": "times",
-                                    "ioValue": 10
+                                    "ioValue": 11
                                 },
                                 {
                                     "name": "xOffset",
