@@ -29,8 +29,8 @@
         {
             "atomType": "Molecule",
             "name": "Chair sides",
-            "x": 0.1485239852398524,
-            "y": 0.26969696969696966,
+            "x": 0.15221402214022142,
+            "y": 0.26666666666666666,
             "uniqueID": 1735859737317,
             "ioValues": [
                 {
@@ -80,8 +80,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Linear-Pattern",
-                    "x": 0.2564575645756457,
-                    "y": 0.29393939393939394,
+                    "x": 0.25092250922509224,
+                    "y": 0.28484848484848485,
                     "uniqueID": 1735859783063,
                     "ioValues": [
                         {
@@ -90,7 +90,7 @@
                         },
                         {
                             "name": "number of repeats",
-                            "ioValue": 13
+                            "ioValue": 12
                         },
                         {
                             "name": "yOffset",
@@ -161,7 +161,7 @@
                                 },
                                 {
                                     "name": "times",
-                                    "ioValue": 13
+                                    "ioValue": 12
                                 },
                                 {
                                     "name": "xOffset",
@@ -1727,7 +1727,7 @@
                 },
                 {
                     "name": "xDist",
-                    "ioValue": 14.5
+                    "ioValue": 13.5
                 },
                 {
                     "name": "yDist",
