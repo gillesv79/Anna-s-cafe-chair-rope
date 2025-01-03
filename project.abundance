@@ -893,8 +893,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 0.30073800738007384,
-                    "y": 0.4454545454545455,
+                    "x": 0.36808118081180813,
+                    "y": 0.4060606060606061,
                     "uniqueID": 1735933602384,
                     "ioValues": [
                         {
@@ -903,19 +903,173 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 20
+                            "ioValue": 19.25
                         }
                     ],
                     "description": "Creates a new rectangle."
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "x-y",
+                    "x": 0.16420664206642066,
+                    "y": 0.49090909090909085,
+                    "uniqueID": 1735933764149,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 20
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 0.75
+                        }
+                    ],
+                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                    "currentEquation": "x-y"
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.29059040590405905,
+                    "y": 0.6303030303030304,
+                    "uniqueID": 1735933891571,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 1
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 0.75
+                        }
+                    ],
+                    "description": "Creates a new rectangle."
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.4252767527675277,
+                    "y": 0.6333333333333333,
+                    "uniqueID": 1735933915450,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1735933891571
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "w/2",
+                    "x": 0.2047970479704797,
+                    "y": 0.7484848484848485,
+                    "uniqueID": 1735933929357,
+                    "ioValues": [
+                        {
+                            "name": "w",
+                            "ioValue": 20
+                        }
+                    ],
+                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                    "currentEquation": "w/2"
+                },
+                {
+                    "atomType": "Join",
+                    "name": "Fusion",
+                    "x": 0.5710332103321033,
+                    "y": 0.41212121212121217,
+                    "uniqueID": 1735933944211,
+                    "ioValues": [
+                        {
+                            "name": "Shape 1",
+                            "ioValue": 1735933602384
+                        },
+                        {
+                            "name": "Shape 2",
+                            "ioValue": 1735933915450
+                        }
+                    ],
+                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
+                    "unionType": "Fusion",
+                    "unionIndex": 1
                 }
             ],
             "allConnectors": [
                 {
                     "ap1Name": "number or geometry",
+                    "ap2Name": "y",
+                    "ap2Primary": false,
+                    "ap1ID": 1735933562968,
+                    "ap2ID": 1735933764149
+                },
+                {
+                    "ap1Name": "number or geometry",
                     "ap2Name": "y length",
                     "ap2Primary": false,
+                    "ap1ID": 1735933562968,
+                    "ap2ID": 1735933891571
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "x",
+                    "ap2Primary": false,
                     "ap1ID": 1735933563213,
+                    "ap2ID": 1735933764149
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "w",
+                    "ap2Primary": false,
+                    "ap1ID": 1735933563213,
+                    "ap2ID": 1735933929357
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 1735933602384,
+                    "ap2ID": 1735933944211
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "y length",
+                    "ap2Primary": false,
+                    "ap1ID": 1735933764149,
                     "ap2ID": 1735933602384
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1735933891571,
+                    "ap2ID": 1735933915450
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 1735933915450,
+                    "ap2ID": 1735933944211
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "yDist",
+                    "ap2Primary": false,
+                    "ap1ID": 1735933929357,
+                    "ap2ID": 1735933915450
                 }
             ],
             "fileTypeVersion": 1,
