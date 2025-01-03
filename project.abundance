@@ -29,8 +29,8 @@
         {
             "atomType": "Molecule",
             "name": "Chair sides",
-            "x": 0.18726937269372693,
-            "y": 0.24242424242424243,
+            "x": 0.15036900369003692,
+            "y": 0.2636363636363636,
             "uniqueID": 1735859737317,
             "ioValues": [
                 {
@@ -690,7 +690,7 @@
             "atomType": "Move",
             "name": "Move",
             "x": 0.2564575645756457,
-            "y": 0.4181818181818182,
+            "y": 0.2818181818181818,
             "uniqueID": 1735932758240,
             "ioValues": [
                 {
@@ -715,8 +715,8 @@
         {
             "atomType": "Join",
             "name": "Assembly",
-            "x": 0.33856088560885605,
-            "y": 0.2515151515151515,
+            "x": 0.3404059040590406,
+            "y": 0.19090909090909092,
             "uniqueID": 1735932795902,
             "ioValues": [
                 {
@@ -745,8 +745,8 @@
         {
             "atomType": "Equation",
             "name": "w/2",
-            "x": 0.3053505535055351,
-            "y": 0.5575757575757576,
+            "x": 0.32564575645756455,
+            "y": 0.3151515151515152,
             "uniqueID": 1735932899084,
             "ioValues": [
                 {
@@ -760,8 +760,8 @@
         {
             "atomType": "Equation",
             "name": "-w/2",
-            "x": 0.2785977859778598,
-            "y": 0.6636363636363636,
+            "x": 0.18357933579335795,
+            "y": 0.4696969696969697,
             "uniqueID": 1735932909576,
             "ioValues": [
                 {
@@ -775,8 +775,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.45479704797047965,
-            "y": 0.31212121212121213,
+            "x": 0.46863468634686345,
+            "y": 0.24545454545454543,
             "uniqueID": 1735932922654,
             "ioValues": [
                 {
@@ -801,8 +801,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.44372693726937273,
-            "y": 0.5303030303030303,
+            "x": 0.4317343173431734,
+            "y": 0.396969696969697,
             "uniqueID": 1735932937955,
             "ioValues": [
                 {
@@ -827,8 +827,8 @@
         {
             "atomType": "Join",
             "name": "Assembly",
-            "x": 0.5876383763837638,
-            "y": 0.35151515151515156,
+            "x": 0.6420664206642066,
+            "y": 0.3545454545454545,
             "uniqueID": 1735932964265,
             "ioValues": [
                 {
@@ -843,6 +843,83 @@
             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
             "unionType": "Assembly",
             "unionIndex": 0
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Brace with holes",
+            "x": 0.20202952029520296,
+            "y": 0.6484848484848484,
+            "uniqueID": 1735933562785,
+            "ioValues": [
+                {
+                    "name": "ply thick",
+                    "ioValue": 0.75
+                },
+                {
+                    "name": "ch width",
+                    "ioValue": 20
+                }
+            ],
+            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": 1735933562622,
+                    "ioValues": [],
+                    "description": "Connect geometry here to make it available in the next level up. "
+                },
+                {
+                    "atomType": "Input",
+                    "name": "ply thick",
+                    "x": 0.04,
+                    "y": 0.3878787878787879,
+                    "uniqueID": 1735933562968,
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+                },
+                {
+                    "atomType": "Input",
+                    "name": "ch width",
+                    "x": 0.04,
+                    "y": 0.7696969696969698,
+                    "uniqueID": 1735933563213,
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.30073800738007384,
+                    "y": 0.4454545454545455,
+                    "uniqueID": 1735933602384,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 1.5
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 20
+                        }
+                    ],
+                    "description": "Creates a new rectangle."
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "y length",
+                    "ap2Primary": false,
+                    "ap1ID": 1735933563213,
+                    "ap2ID": 1735933602384
+                }
+            ],
+            "fileTypeVersion": 1,
+            "compiledBom": {}
         }
     ],
     "allConnectors": [
@@ -873,6 +950,13 @@
             "ap2Primary": false,
             "ap1ID": 1735932168295,
             "ap2ID": 1735932758240
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "ply thick",
+            "ap2Primary": false,
+            "ap1ID": 1735932168295,
+            "ap2ID": 1735933562785
         },
         {
             "ap1Name": "geometry",
@@ -908,6 +992,13 @@
             "ap2Primary": false,
             "ap1ID": 1735932877848,
             "ap2ID": 1735932909576
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "ch width",
+            "ap2Primary": false,
+            "ap1ID": 1735932877848,
+            "ap2ID": 1735933562785
         },
         {
             "ap1Name": "result",
