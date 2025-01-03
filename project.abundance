@@ -7,11 +7,11 @@
     "ioValues": [
         {
             "name": "ply thick",
-            "ioValue": 0.75
+            "ioValue": 0.55
         },
         {
             "name": "ch width",
-            "ioValue": 20
+            "ioValue": 22
         },
         {
             "name": "rope size",
@@ -44,7 +44,7 @@
             "ioValues": [
                 {
                     "name": "ply thickness",
-                    "ioValue": 0.75
+                    "ioValue": 0.55
                 },
                 {
                     "name": "hole size",
@@ -350,7 +350,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 0.75
+                            "ioValue": 0.55
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -540,7 +540,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0.375
+                            "ioValue": 0.275
                         },
                         {
                             "name": "zDist",
@@ -558,7 +558,7 @@
                     "ioValues": [
                         {
                             "name": "t",
-                            "ioValue": 0.75
+                            "ioValue": 0.55
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -1006,7 +1006,7 @@
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 0.75
+                    "ioValue": 0.55
                 },
                 {
                     "name": "zDist",
@@ -1054,7 +1054,7 @@
             "ioValues": [
                 {
                     "name": "w",
-                    "ioValue": 20
+                    "ioValue": 22
                 }
             ],
             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -1069,11 +1069,11 @@
             "ioValues": [
                 {
                     "name": "w",
-                    "ioValue": 20
+                    "ioValue": 22
                 },
                 {
                     "name": "y",
-                    "ioValue": 0.75
+                    "ioValue": 0.55
                 }
             ],
             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -1096,7 +1096,7 @@
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 10
+                    "ioValue": 11
                 },
                 {
                     "name": "zDist",
@@ -1122,7 +1122,7 @@
                 },
                 {
                     "name": "yDist",
-                    "ioValue": -10.75
+                    "ioValue": -11.55
                 },
                 {
                     "name": "zDist",
@@ -1160,11 +1160,11 @@
             "ioValues": [
                 {
                     "name": "ply thick",
-                    "ioValue": 0.75
+                    "ioValue": 0.55
                 },
                 {
                     "name": "ch width",
-                    "ioValue": 20
+                    "ioValue": 22
                 },
                 {
                     "name": "hole size",
@@ -1219,7 +1219,7 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 19.25
+                            "ioValue": 21.45
                         }
                     ],
                     "description": "Creates a new rectangle."
@@ -1233,11 +1233,11 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 20
+                            "ioValue": 22
                         },
                         {
                             "name": "y",
-                            "ioValue": 0.75
+                            "ioValue": 0.55
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -1256,7 +1256,7 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 0.75
+                            "ioValue": 0.55
                         }
                     ],
                     "description": "Creates a new rectangle."
@@ -1278,7 +1278,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 10
+                            "ioValue": 11
                         },
                         {
                             "name": "zDist",
@@ -1296,7 +1296,7 @@
                     "ioValues": [
                         {
                             "name": "w",
-                            "ioValue": 20
+                            "ioValue": 22
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -1335,7 +1335,7 @@
                     "ioValues": [
                         {
                             "name": "w",
-                            "ioValue": 20
+                            "ioValue": 22
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -1358,7 +1358,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -10
+                            "ioValue": -11
                         },
                         {
                             "name": "zDist",
@@ -1646,7 +1646,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 0.75
+                            "ioValue": 0.55
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -2103,11 +2103,11 @@
             "ioValues": [
                 {
                     "name": "ply thick",
-                    "ioValue": 0.75
+                    "ioValue": 0.55
                 },
                 {
                     "name": "ch width",
-                    "ioValue": 20
+                    "ioValue": 22
                 }
             ],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -2158,7 +2158,7 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 19.25
+                            "ioValue": 21.45
                         }
                     ],
                     "description": "Creates a new rectangle."
@@ -2172,11 +2172,11 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 20
+                            "ioValue": 22
                         },
                         {
                             "name": "y",
-                            "ioValue": 0.75
+                            "ioValue": 0.55
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -2195,7 +2195,7 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 0.75
+                            "ioValue": 0.55
                         }
                     ],
                     "description": "Creates a new rectangle."
@@ -2217,7 +2217,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 10
+                            "ioValue": 11
                         },
                         {
                             "name": "zDist",
@@ -2235,7 +2235,7 @@
                     "ioValues": [
                         {
                             "name": "w",
-                            "ioValue": 20
+                            "ioValue": 22
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -2282,7 +2282,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -10
+                            "ioValue": -11
                         },
                         {
                             "name": "zDist",
@@ -2304,7 +2304,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 0.75
+                            "ioValue": 0.55
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -2362,7 +2362,7 @@
                     "ioValues": [
                         {
                             "name": "w",
-                            "ioValue": 20
+                            "ioValue": 22
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -2759,8 +2759,8 @@
         {
             "atomType": "Export",
             "name": "Export",
-            "x": 0.896678966789668,
-            "y": 0.8333333333333334,
+            "x": 0.8948339483394834,
+            "y": 0.8545454545454545,
             "uniqueID": 1735945171838,
             "ioValues": [
                 {
@@ -2781,7 +2781,7 @@
                 }
             ],
             "description": "Export Atom, let's you choose a type of file to Export.",
-            "type": null,
+            "type": "SVG",
             "resolution": 72,
             "importIndex": 0,
             "fileName": null
