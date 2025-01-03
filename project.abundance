@@ -38,8 +38,8 @@
         {
             "atomType": "Molecule",
             "name": "Chair sides",
-            "x": 0.15221402214022142,
-            "y": 0.26666666666666666,
+            "x": 0.16143911439114392,
+            "y": 0.24848484848484848,
             "uniqueID": 1735859737317,
             "ioValues": [
                 {
@@ -63,7 +63,7 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": 1735932509962
+                            "ioValue": 1735944861301
                         }
                     ],
                     "description": "Connect geometry here to make it available in the next level up. "
@@ -500,8 +500,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.7416974169741698,
-                    "y": 0.5363636363636364,
+                    "x": 0.7047970479704797,
+                    "y": 0.4818181818181818,
                     "uniqueID": 1735932470502,
                     "ioValues": [
                         {
@@ -526,8 +526,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.8505535055350554,
-                    "y": 0.5484848484848485,
+                    "x": 0.8108856088560885,
+                    "y": 0.4393939393939394,
                     "uniqueID": 1735932509962,
                     "ioValues": [
                         {
@@ -552,8 +552,8 @@
                 {
                     "atomType": "Equation",
                     "name": "t/2",
-                    "x": 0.6642066420664207,
-                    "y": 0.806060606060606,
+                    "x": 0.6162361623616236,
+                    "y": 0.7151515151515151,
                     "uniqueID": 1735932715786,
                     "ioValues": [
                         {
@@ -806,6 +806,25 @@
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
+                },
+                {
+                    "atomType": "Tag",
+                    "name": "cutLayout,",
+                    "x": 0.7915129151291512,
+                    "y": 0.8454545454545455,
+                    "uniqueID": 1735944861301,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1735932509962
+                        }
+                    ],
+                    "description": "Tags geometry so that it can be extracted later.",
+                    "tags": [
+                        "cutLayout",
+                        ""
+                    ],
+                    "cutTag": true
                 }
             ],
             "allConnectors": [
@@ -916,10 +935,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 1735932509962,
-                    "ap2ID": 1735859737740
+                    "ap2ID": 1735944861301
                 },
                 {
                     "ap1Name": "result",
@@ -948,6 +967,13 @@
                     "ap2Primary": true,
                     "ap1ID": 1735944448145,
                     "ap2ID": 1735860650178
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1735944861301,
+                    "ap2ID": 1735859737740
                 }
             ],
             "fileTypeVersion": 1,
@@ -966,8 +992,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.2564575645756457,
-            "y": 0.2818181818181818,
+            "x": 0.29428044280442806,
+            "y": 0.3909090909090909,
             "uniqueID": 1735932758240,
             "ioValues": [
                 {
@@ -992,8 +1018,8 @@
         {
             "atomType": "Join",
             "name": "Assembly",
-            "x": 0.3404059040590406,
-            "y": 0.19090909090909092,
+            "x": 0.3883763837638376,
+            "y": 0.18181818181818182,
             "uniqueID": 1735932795902,
             "ioValues": [
                 {
@@ -1157,7 +1183,7 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": 1735941545704
+                            "ioValue": 1735945033120
                         }
                     ],
                     "description": "Connect geometry here to make it available in the next level up. "
@@ -1686,6 +1712,25 @@
                     "ioValues": [],
                     "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                     "type": "number"
+                },
+                {
+                    "atomType": "Tag",
+                    "name": ",cutLayout",
+                    "x": 0.853321033210332,
+                    "y": 0.49696969696969695,
+                    "uniqueID": 1735945033120,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1735941545704
+                        }
+                    ],
+                    "description": "Tags geometry so that it can be extracted later.",
+                    "tags": [
+                        "",
+                        "cutLayout"
+                    ],
+                    "cutTag": true
                 }
             ],
             "allConnectors": [
@@ -1838,10 +1883,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 1735941545704,
-                    "ap2ID": 1735933562622
+                    "ap2ID": 1735945033120
                 },
                 {
                     "ap1Name": "number or geometry",
@@ -1849,6 +1894,13 @@
                     "ap2Primary": false,
                     "ap1ID": 1735944184943,
                     "ap2ID": 1735934028379
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1735945033120,
+                    "ap2ID": 1735933562622
                 }
             ],
             "fileTypeVersion": 1,
@@ -1857,8 +1909,8 @@
         {
             "atomType": "Join",
             "name": "Assembly",
-            "x": 0.8210332103321033,
-            "y": 0.3757575757575758,
+            "x": 0.8081180811808119,
+            "y": 0.2818181818181818,
             "uniqueID": 1735941590285,
             "ioValues": [
                 {
@@ -2045,8 +2097,8 @@
         {
             "atomType": "Molecule",
             "name": "Brace no holes",
-            "x": 0.3145756457564576,
-            "y": 0.7454545454545454,
+            "x": 0.31088560885608857,
+            "y": 0.7333333333333334,
             "uniqueID": 1735943667330,
             "ioValues": [
                 {
@@ -2070,7 +2122,7 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": 1735943668141
+                            "ioValue": 1735945053154
                         }
                     ],
                     "description": "Connect geometry here to make it available in the next level up. "
@@ -2315,6 +2367,25 @@
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "-w/2"
+                },
+                {
+                    "atomType": "Tag",
+                    "name": ",cutLayout",
+                    "x": 0.8108856088560885,
+                    "y": 0.7424242424242424,
+                    "uniqueID": 1735945053154,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1735943668141
+                        }
+                    ],
+                    "description": "Tags geometry so that it can be extracted later.",
+                    "tags": [
+                        "",
+                        "cutLayout"
+                    ],
+                    "cutTag": true
                 }
             ],
             "allConnectors": [
@@ -2425,10 +2496,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 1735943668141,
-                    "ap2ID": 1735943667418
+                    "ap2ID": 1735945053154
                 },
                 {
                     "ap1Name": "result",
@@ -2436,6 +2507,13 @@
                     "ap2Primary": false,
                     "ap1ID": 1735943714673,
                     "ap2ID": 1735943667293
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1735945053154,
+                    "ap2ID": 1735943667418
                 }
             ],
             "fileTypeVersion": 1,
@@ -2517,6 +2595,70 @@
             ],
             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
             "currentEquation": "x + (x*0.1)"
+        },
+        {
+            "atomType": "CutLayout",
+            "name": "Cut Layout",
+            "x": 0.8376383763837638,
+            "y": 0.7212121212121212,
+            "uniqueID": 1735944909834,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1735941590285
+                },
+                {
+                    "name": "Material Thickness",
+                    "ioValue": 0.75
+                },
+                {
+                    "name": "Sheet Width",
+                    "ioValue": 96
+                },
+                {
+                    "name": "Sheet Height",
+                    "ioValue": 48
+                },
+                {
+                    "name": "Part Padding",
+                    "ioValue": 0.25
+                }
+            ],
+            "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
+            "placements": [
+                {
+                    "translate": {
+                        "x": 15.208148002624512,
+                        "y": 13.386120796203613
+                    },
+                    "id": 3,
+                    "rotate": 180
+                },
+                {
+                    "translate": {
+                        "x": 23.4076728963501,
+                        "y": -10.899999664562989
+                    },
+                    "id": 0,
+                    "rotate": 0
+                },
+                {
+                    "translate": {
+                        "x": 15.208148003649903,
+                        "y": 35.48239126456299
+                    },
+                    "id": 2,
+                    "rotate": 180
+                },
+                {
+                    "translate": {
+                        "x": 24.494315196350097,
+                        "y": 13.012556435437013
+                    },
+                    "id": 1,
+                    "rotate": 0
+                }
+            ]
         }
     ],
     "allConnectors": [
@@ -2680,6 +2822,13 @@
             "ap2Primary": false,
             "ap1ID": 1735941590285,
             "ap2ID": 1735670134573
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1735941590285,
+            "ap2ID": 1735944909834
         },
         {
             "ap1Name": "geometry",
