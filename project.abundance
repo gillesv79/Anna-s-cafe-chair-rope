@@ -452,7 +452,7 @@
                     "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
                 },
                 {
-                    "atomType": "Join",
+                    "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 0.5821033210332103,
                     "y": 0.3909090909090909,
@@ -1016,7 +1016,7 @@
             "description": "Moves a shape laterally in X, Y, Z."
         },
         {
-            "atomType": "Join",
+            "atomType": "Assembly",
             "name": "Assembly",
             "x": 0.3883763837638376,
             "y": 0.18181818181818182,
@@ -1132,7 +1132,7 @@
             "description": "Moves a shape laterally in X, Y, Z."
         },
         {
-            "atomType": "Join",
+            "atomType": "Assembly",
             "name": "Assembly",
             "x": 0.5922509225092251,
             "y": 0.17272727272727273,
@@ -1303,7 +1303,7 @@
                     "currentEquation": "w/2"
                 },
                 {
-                    "atomType": "Join",
+                    "atomType": "Assembly",
                     "name": "Fusion",
                     "x": 0.5839483394833949,
                     "y": 0.28787878787878785,
@@ -1907,7 +1907,7 @@
             "compiledBom": []
         },
         {
-            "atomType": "Join",
+            "atomType": "Assembly",
             "name": "Assembly",
             "x": 0.7712177121771218,
             "y": 0.26969696969696966,
@@ -2242,7 +2242,7 @@
                     "currentEquation": "w/2"
                 },
                 {
-                    "atomType": "Join",
+                    "atomType": "Assembly",
                     "name": "Fusion",
                     "x": 0.5710332103321033,
                     "y": 0.2636363636363636,
