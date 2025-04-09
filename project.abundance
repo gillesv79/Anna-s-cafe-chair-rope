@@ -823,8 +823,7 @@
                     "tags": [
                         "cutLayout",
                         ""
-                    ],
-                    "cutTag": true
+                    ]
                 }
             ],
             "allConnectors": [
@@ -1729,8 +1728,7 @@
                     "tags": [
                         "",
                         "cutLayout"
-                    ],
-                    "cutTag": true
+                    ]
                 }
             ],
             "allConnectors": [
@@ -2384,8 +2382,7 @@
                     "tags": [
                         "",
                         "cutLayout"
-                    ],
-                    "cutTag": true
+                    ]
                 }
             ],
             "allConnectors": [
@@ -2784,7 +2781,7 @@
             "type": "SVG",
             "resolution": 72,
             "importIndex": 0,
-            "fileName": null
+            "partName": "Anna-s-cafe-chair-rope"
         }
     ],
     "allConnectors": [
@@ -3048,7 +3045,7 @@
             "ap2ID": 1735945171838
         }
     ],
-    "unitsKey": "Inches",
+    "unitsKey": "MM",
     "fileTypeVersion": 1,
     "compiledBom": [],
     "filetypeVersion": 1
